@@ -1,4 +1,19 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div>Hola mundo</div>
+  <Layout>
+    <template #header>
+      <Header></Header>
+    </template>
+  </Layout>
 </template>
+
+<script>
+import Layout from "./Layout.vue";
+import Header from "./Header.vue";
+export default {
+  components: {
+    Layout,
+    Header,
+  },
+};
+</script>
