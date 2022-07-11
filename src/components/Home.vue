@@ -5,7 +5,12 @@
       <Header></Header>
     </template>
     <template #resume>
-      <Resume />
+      <Resume
+        :total-label="'Ahorro total'"
+        :label="label"
+        :total-amount="100000"
+        :amount="amount"
+      />
     </template>
     <template #movements>
       <Movements />
@@ -17,6 +22,7 @@
 import Layout from "./Layout.vue";
 import Header from "./Header.vue";
 import Resume from "./Resume/Index.vue";
+
 import Movements from "./Movements.vue";
 
 export default {
@@ -25,6 +31,12 @@ export default {
     Header,
     Resume,
     Movements,
+  },
+  data() {
+    return {
+      label: null,
+      amount: null,
+    };
   },
 };
 </script>
