@@ -1,7 +1,7 @@
 <template>
   <div class="modal">
     <div class="head">
-      <p>nuevo movimiento</p>
+      <p>Nuevo movimiento</p>
       <img @click="close" src="@/assets/close-icon.svg" alt="cerrar" />
     </div>
     <div class="body">
