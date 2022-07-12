@@ -49,7 +49,7 @@ export default {
           id: 1,
           title: "Movimiento 2",
           description: "Lorem ipsum dolor sit amet",
-          amount: 1000,
+          amount: -1000,
         },
         {
           id: 2,
@@ -67,7 +67,7 @@ export default {
           id: 4,
           title: "Movimiento 5",
           description: "Lorem ipsum dolor sit amet",
-          amount: 1000,
+          amount: -1000,
         },
         {
           id: 6,
@@ -85,7 +85,7 @@ export default {
           id: 8,
           title: "Movimiento 9",
           description: "Lorem ipsum dolor sit amet",
-          amount: 1000,
+          amount: -1000,
         },
       ],
     };
