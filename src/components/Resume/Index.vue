@@ -60,6 +60,7 @@ h1,
 p {
   margin: 0;
   text-align: center;
+  color: #5a5a5a;
 }
 h1 {
   margin-top: 14px;

@@ -16,6 +16,9 @@
           <textarea rows="4" v-model="description"></textarea>
         </div>
         <div class="field">
+          <label>Tipo de movimiento</label>
+        </div>
+        <div class="field">
           <label class="radio-label">
             <input type="radio" v-model="movementType" value="Ingreso" />
             <span>Ingreso</span>
@@ -85,7 +88,12 @@ form .action {
   padding: 16px 24px;
 }
 label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
   margin-bottom: 8px;
+  color: #5a5a5a;
 }
 input,
 textarea {
@@ -108,8 +116,8 @@ input[type="number"] {
 }
 input[type="radio"] {
   appearance: none;
-  width: 1.24rem;
-  height: 1.24rem;
+  width: 1.5rem;
+  height: 1.5rem;
   color: var(--brand-blue);
   border: 2px solid var(--brand-blue);
   border-radius: 50%;

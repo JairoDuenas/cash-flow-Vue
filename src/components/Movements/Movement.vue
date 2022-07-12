@@ -72,11 +72,22 @@ const remove = () => {
 }
 h4,
 p {
+  font-style: normal;
   margin: 0;
   padding: 0;
 }
 h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
   margin-bottom: 8px;
+  color: #5a5a5a;
+}
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
 }
 .movement .action img {
   margin-bottom: 16px;

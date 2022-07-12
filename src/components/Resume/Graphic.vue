@@ -99,5 +99,6 @@ svg {
 }
 p {
   text-align: center;
+  color: #5a5a5a;
 }
 </style>
